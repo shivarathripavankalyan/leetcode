@@ -1,0 +1,6 @@
+https://www.hackerrank.com/challenges/weather-observation-station-7/copy-from/296204460
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY REGEXP '[aeiouAEIOU]$'
+ORDER BY CITY;
